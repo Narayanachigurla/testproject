@@ -1,4 +1,7 @@
 import express from "express";
+import dotenv from "dotenv";
+import { nanoid } from "nanoid";
+import pool from "./db.js";
 
 const app = express();
 app.use(express.json());

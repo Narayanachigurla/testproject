@@ -2,6 +2,7 @@
 
 A simple Pastebin-like web application built with Node.js, Express, and PostgreSQL.  
 Users can create text pastes, optionally set expiry time and maximum view limits, and share them via a unique URL.
+Note : in form input insert expire time as minutes but in payload it shows seconds
 
 🔗 Live Demo: https://testproject-phi-ecru.vercel.app/
 
